@@ -21,7 +21,7 @@
       <file leaf-file-name="registerationForm.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/registerationForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="80">
               <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
@@ -65,7 +65,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="85" />
     <option name="y" value="286" />
     <option name="width" value="1124" />
@@ -121,15 +121,16 @@
       <option name="presentableId" value="Default" />
       <updated>1532801046742</updated>
       <workItem from="1532801055046" duration="2357000" />
-      <workItem from="1532959766210" duration="1011000" />
+      <workItem from="1532959766210" duration="1596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3368000" />
+    <option name="totallyTimeSpent" value="3953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="286" width="1124" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15319549" />
       <window_info anchor="bottom" id="TODO" order="0" />
@@ -177,7 +178,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/registerationForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="80">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
