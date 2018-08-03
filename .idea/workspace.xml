@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08fdf2bf-7327-49f0-836e-9e0396e37377" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrapbasics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="08fdf2bf-7327-49f0-836e-9e0396e37377" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,9 +87,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="685" />
-    <option name="y" value="270" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="640" />
+    <option name="y" value="37" />
     <option name="width" value="967" />
     <option name="height" value="870" />
   </component>
@@ -161,7 +158,7 @@
     <option name="totallyTimeSpent" value="17133000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="270" width="967" height="870" extended-state="1" />
+    <frame x="640" y="37" width="967" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
