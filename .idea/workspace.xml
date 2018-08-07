@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08fdf2bf-7327-49f0-836e-9e0396e37377" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/whileLoop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annoying.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annoying.html" beforeDir="false" afterPath="$PROJECT_DIR$/annoying.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="whileLoop.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/whileLoop.html">
+      <file leaf-file-name="annoying.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annoying.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="90">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whileLoop.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/whileLoop.js">
+      <file leaf-file-name="annoying.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/annoying.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="126">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -38,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -76,6 +77,8 @@
         <option value="$PROJECT_DIR$/guessinggame.html" />
         <option value="$PROJECT_DIR$/guessinggame.js" />
         <option value="$PROJECT_DIR$/whileLoop.js" />
+        <option value="$PROJECT_DIR$/annoying.html" />
+        <option value="$PROJECT_DIR$/annoying.js" />
       </list>
     </option>
   </component>
@@ -88,7 +91,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="604" />
     <option name="y" value="30" />
     <option name="width" value="1008" />
@@ -158,22 +161,21 @@
       <workItem from="1533562949540" duration="5833000" />
       <workItem from="1533663933360" duration="599000" />
       <workItem from="1533665551210" duration="194000" />
-      <workItem from="1533666653808" duration="1003000" />
+      <workItem from="1533666653808" duration="2872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32562000" />
+    <option name="totallyTimeSpent" value="34431000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="604" y="30" width="1008" height="912" extended-state="0" />
-    <editor active="true" />
+    <frame x="604" y="30" width="1008" height="912" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13502109" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13502109" />
       <window_info anchor="bottom" id="TODO" order="0" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info active="true" anchor="right" id="Database" order="0" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Run" order="0" />
@@ -190,20 +192,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StartupLandingPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -500,8 +488,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/whileLoop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annoying.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annoying.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
