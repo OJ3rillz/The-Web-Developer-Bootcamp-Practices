@@ -1,10 +1,22 @@
 //isEven
 
+//function isEven(num) {
+  //  if (num % 2 === 0) {
+    //    return true;
+    //}
+    //else {
+      //  return false;
+    //}
+
 function isEven(num) {
-    if (num % 2 === 0) {
-        return true;
+    return num % 2 === 0;
+}
+
+function factorial(num) {
+    var result = 1;
+    for (var i = 2; i <= num; i++){
+        result *= i;
     }
-    else {
-        return false;
-    }
+   return result;
+
 }
