@@ -12,9 +12,9 @@ for(var i = 13; i <= 40; i += 1) {
     }
 }
 
-console.log("PRINTING ALL ODDS NUMBERS BETWEEN 300 AND 333")
+console.log("PRINTING ALL ODDS NUMBERS BETWEEN 300 AND 334")
 
-for (var i = 300; i <= 333; i +=1){
+for (var i = 300; i <= 334; i +=1){
     if (i % 2 !== 0) {
         console.log(i);
     }
