@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08fdf2bf-7327-49f0-836e-9e0396e37377" name="Default" comment="" />
+    <list default="true" id="08fdf2bf-7327-49f0-836e-9e0396e37377" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstExpressApp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/FirstExpressApp/app.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +41,27 @@
         <entry file="file://$PROJECT_DIR$/arrayProblemSolution.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arraySolution.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="arraySolution.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arraySolution.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FirstExpressApp/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -108,10 +124,59 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/vary/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="693" />
+    <option name="x" value="174" />
     <option name="y" value="30" />
     <option name="width" value="935" />
     <option name="height" value="877" />
@@ -124,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,10 +196,16 @@
               <item name="The-Web-Developer-Bootcamp-Practices" type="b2602c69:ProjectViewProjectNode" />
               <item name="The-Web-Developer-Bootcamp-Practices" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="The-Web-Developer-Bootcamp-Practices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The-Web-Developer-Bootcamp-Practices" type="462c0819:PsiDirectoryNode" />
+              <item name="FirstExpressApp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,6 +228,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="arrayProblemSolution.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/The-Web-Developer-Bootcamp-Practices/arrayProblemSolution.html" />
+    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/FirstExpressApp" />
+    <list>
+      <item itemvalue="JavaScript Debug.arrayProblemSolution.html" />
+      <item itemvalue="Node.js.app.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="JavaScript Debug.arrayProblemSolution.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -183,23 +267,25 @@
       <workItem from="1533666653808" duration="2872000" />
       <workItem from="1533734611462" duration="6215000" />
       <workItem from="1537805510014" duration="41000" />
+      <workItem from="1540482265370" duration="1214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40721000" />
+    <option name="totallyTimeSpent" value="41935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="693" y="30" width="935" height="877" extended-state="0" />
+    <frame x="174" y="30" width="935" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3382857" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21714285" />
       <window_info anchor="bottom" id="TODO" order="0" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.32882273" />
       <window_info id="Structure" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -220,13 +306,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/board.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -522,12 +601,23 @@
     <entry file="file://$PROJECT_DIR$/arrayProblemSolution.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arraySolution.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FirstExpressApp/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

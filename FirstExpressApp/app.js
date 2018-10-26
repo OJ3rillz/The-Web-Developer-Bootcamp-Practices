@@ -6,19 +6,14 @@ app.get("/", function(req, res){
       res.send("Hi there!");
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-app.listen(process.env.POST, process.env.IP, function(){
-      console.log("Server has started!!!");
+// "/bye" => "Goodbye!"
+app.get("/bye", function(req, res){
+    res.send("Goodbye!!");
 });
+ 
+
+
+app.listen(3000, function(){
+    console.log("Server has started");
+});
+
