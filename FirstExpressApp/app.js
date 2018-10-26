@@ -11,6 +11,10 @@ app.get("/bye", function(req, res){
     res.send("Goodbye!!");
 });
  
+// "/dog" ==> "MEOW!
+app.get("/dog", function(req, res){
+res.send("meaw");
+});
 
 
 app.listen(3000, function(){
