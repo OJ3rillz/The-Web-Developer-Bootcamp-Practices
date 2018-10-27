@@ -16,6 +16,10 @@ app.get("/dog", function(req, res){
 res.send("meaw");
 });
 
+app.get("*", function(req, res){
+    res.send("YOU ARE A STAR!!!");
+    });
+
 
 app.listen(3000, function(){
     console.log("Server has started");
