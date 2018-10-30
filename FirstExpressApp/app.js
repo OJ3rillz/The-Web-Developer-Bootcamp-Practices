@@ -16,6 +16,10 @@ app.get("/dog", function(req, res){
 res.send("meaw");
 });
 
+app.get("/pig", function(req, res){
+    res.send("bleh");
+    });
+
 app.get("*", function(req, res){
     res.send("YOU ARE A STAR!!!");
     });
