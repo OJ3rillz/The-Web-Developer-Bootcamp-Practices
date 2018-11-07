@@ -13,13 +13,13 @@ res.render("home");
 });
 
 app.post("/addfriend", function(req, res){
-    console.log (req.body.newfriend); 
-    res.send("YOU HAVE REACHED THE POST ROUTE!!")
+    var newFriend = req.body.newfriend;
+    friends.push(newFriend); 
+    res.redirect("/friends");
 });
 
 app.get("/friends", function(req, res){
-    
-res.render("friends", {friends: friends});
+    res.render("friends", {friends: friends});
 });
 
 app.listen(3000, function(){
