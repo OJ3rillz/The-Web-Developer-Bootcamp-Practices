@@ -16,7 +16,7 @@ app.get("/campgrounds", function(req, res){
             {name: "Mountain Goat's Rest", image: ""}
       ]
 
-      res.render("campgrounds");
+      res.render("campgrounds",{campgrounds:campgrounds});
 
 });
 
