@@ -11,9 +11,9 @@ app.get("/", function(req, res){
 
 app.get("/campgrounds", function(req, res){
       var campgrounds = [
-            {name: "Salmon Creek", image: ""},
-            {name: "Granite hill", image: ""},
-            {name: "Mountain Goat's Rest", image: ""}
+            {name: "Salmon Creek", image: "https://pixabay.com/get/e837b1072af4003ed1584d05fb1d4e97e07ee3d21cac104491f5c27ba1e4b1b1_340.jpg"},
+            {name: "Granite hill", image: "https://pixabay.com/get/e83db7082af3043ed1584d05fb1d4e97e07ee3d21cac104491f5c27ba1e4b1b1_340.jpg"},
+            {name: "Mountain Goat's Rest", image: "https://pixabay.com/get/e835b20e29f7083ed1584d05fb1d4e97e07ee3d21cac104491f5c27ba1e4b1b1_340.jpg"}
       ]
 
       res.render("campgrounds",{campgrounds:campgrounds});
