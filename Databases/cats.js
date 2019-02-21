@@ -23,7 +23,17 @@ var catSchema = new mongoose.Schema({
          //  console.log(cat);
      //}
 //});
-Cat.create()
+Cat.create({
+      name: "Snow white",
+      age:15,
+      temperament: "Bland"
+}, function(err, cat){
+      if (err){
+            console.log(err);
+      } else{
+            console.log(cat);
+      }
+});
 
 //retrieve all cats from the DB and console.log each one
 
