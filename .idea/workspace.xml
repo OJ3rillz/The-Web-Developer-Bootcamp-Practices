@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08fdf2bf-7327-49f0-836e-9e0396e37377" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FirstExpressApp/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/FirstExpressApp/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +48,8 @@
       <file leaf-file-name="arraySolution.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arraySolution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -58,8 +57,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FirstExpressApp/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -114,6 +113,7 @@
         <option value="$PROJECT_DIR$/forloops.html" />
         <option value="$PROJECT_DIR$/forloops.js" />
         <option value="$PROJECT_DIR$/scope.html" />
+        <option value="$PROJECT_DIR$/FirstExpressApp/app.js" />
       </list>
     </option>
   </component>
@@ -123,8 +123,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/APIs/movie_search_app/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ExpressAssignment/node_modules" />
+    <handled-path value="$PROJECT_DIR$/FirstExpressApp/PostReqDemo/node_modules" />
+    <handled-path value="$PROJECT_DIR$/FirstExpressApp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/YelpCamp/v1/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/APIs/movie_search_app/package.json" />
+      <path value="$PROJECT_DIR$/ExpressAssignment/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/PostReqDemo/package.json" />
       <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/accepts/package.json" />
       <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/array-flatten/package.json" />
       <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/body-parser/package.json" />
@@ -173,6 +183,9 @@
       <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/unpipe/package.json" />
       <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/utils-merge/package.json" />
       <path value="$PROJECT_DIR$/FirstExpressApp/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/FirstExpressApp/package.json" />
+      <path value="$PROJECT_DIR$/YelpCamp/v1/package.json" />
+      <path value="$PROJECT_DIR$/movieSearchApp/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
@@ -268,19 +281,18 @@
       <workItem from="1533734611462" duration="6215000" />
       <workItem from="1537805510014" duration="41000" />
       <workItem from="1540482265370" duration="1214000" />
+      <workItem from="1546703622913" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41935000" />
+    <option name="totallyTimeSpent" value="42003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="30" width="935" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21714285" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22171429" />
       <window_info anchor="bottom" id="TODO" order="0" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
@@ -291,6 +303,7 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -607,15 +620,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arraySolution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FirstExpressApp/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
