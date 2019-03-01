@@ -30,23 +30,43 @@ app.get("/", function(req, res){
 //INDEX - show all campgrounds
 app.get("/campgrounds", function(req, res){
     // Get all campgrounds from DB      
-    Campground.find({}, function(err))
-      res.render("campgrounds",{campgrounds:campgrounds});
-
+    Campground.find({}, function(err, allCampgrounds){
+          if (err){
+                console.log(err);
+          } else {
+                res.render("index",{campground:allCampgrounds});
+          }
+    });
 });
 
+//CREATE - add new campgrounds to DB
 app.post("/campgrounds", function(req, res){
+// get data from form and add to campgrounds array
      var name = req.body.name;
      var image = req.body.image;
-     var newCampground = {name: name, image: image}
+     var desc = req.body.description;
+     var newCampground = {name: name, image: image, description: desc}
+     // Create a new campgorund and save to DB
+     Campground.create(newCampground, function(err, newlyCreated){
+           if(err){
+                 console.log(err);
+           } else{
+              //redirect back to campgrounds page
+              res.redirect("/campgrounds");
+        }
+     });
+});
      campgrounds.push(newCampground);
       //redirect back to the campgrounds page
      res.redirect("/campgrounds");
 });
 
+//NEW - show form to create new campground
 app.get("/campgrounds/new", function(req, res){
    res.render("new.ejs");
 });
+
+
 
 app.listen(3000, function(){
       console.log("Yelpcamp Server has started!");
