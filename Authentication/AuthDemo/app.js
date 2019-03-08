@@ -13,7 +13,7 @@ mongoose.connect("mongodb://localhost/auth_demo_app");
 
 var app = express();
 app.set('view engine', 'ejs'); 
-
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(require("express-session")({
     secret: "Im a star in the making",
     resave: false,
@@ -52,7 +52,22 @@ app.get("/register", function(req, res){
 app.post("/register", function(req, res){
       req.body.username
       req.body.password
+      User.register(new User({username: req.body.username}), req.body.password, function(err, user){
+            if (err){
+                console.log(err);
+                return res.render('register');
+            }
+            passport.authenticate("local")(req, res, function(){
+                res.redirect("/secret");
+            });
+      });
 })
+
+//LOGIN ROUTES
+// render login form
+app.get("/login", function(req, res){
+  res.render("login");
+});
 
 app.listen(3000, function(){
       console.log("App has started");
