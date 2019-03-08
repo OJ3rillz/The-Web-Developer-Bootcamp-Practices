@@ -19,6 +19,17 @@ app.get("/secret", function(req, res){
 
 //Auth Routes
 
+
+//show sign up form
+app.get("/register", function(req, res){
+    res.render("register");
+});
+
+//handling user sign up
+app.post("/register", function(req, res){
+      res.send("REGISTER POST ROUTE");
+})
+
 app.listen(3000, function(){
       console.log("App has started");
   });
