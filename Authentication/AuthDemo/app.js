@@ -1,9 +1,17 @@
-var express = require("express");
-var mongoose = require("mongoose");
+var express = require("express"),
+
+mongoose = require("mongoose"),
+passport = require("passport"),
+bodyParser = require("body-parser"),
+User = require("./models/user"),
+LocalStrategy = require("passport-local"),
+passportLocalMongoose = require("passport-local-mongoose")
+
 mongoose.connect("mongodb://localhost/auth_demo_app");
 
 var app = express();
 app.set('view engine', 'ejs'); 
+app.use(bodyParser.urlencoded({extended: true}));
 
 //ROUTES
 
@@ -27,7 +35,8 @@ app.get("/register", function(req, res){
 
 //handling user sign up
 app.post("/register", function(req, res){
-      res.send("REGISTER POST ROUTE");
+      req.body.username
+      req.body.password
 })
 
 app.listen(3000, function(){
