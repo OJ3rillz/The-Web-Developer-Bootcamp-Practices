@@ -9,8 +9,23 @@ passportLocalMongoose = require("passport-local-mongoose")
 
 mongoose.connect("mongodb://localhost/auth_demo_app");
 
+
+
 var app = express();
 app.set('view engine', 'ejs'); 
+
+app.use(require("express-session")({
+    secret: "Im a star in the making",
+    resave: false,
+    saveUninitialized: false
+ })); 
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser()); 
+
 app.use(bodyParser.urlencoded({extended: true}));
 
 //ROUTES
